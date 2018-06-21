@@ -2,12 +2,13 @@
 
 A set of utilities to facilitate load testing of ERC20 token transfers. 
 
+
+
 ## Notes
 
 - This test rig was built exclusively to simulate a load of simple ERC20 token transfers. It is NOT a
 general purpose tool for ethereum (load) testing.
-- [Ethgasstation](https://ethgasstation.info/) is used to pull recommended gas prices with a configured price tier. It's less than perfect but seems
-to be a standard in the Ethereum community.
+- [Ethgasstation](https://ethgasstation.info/) is used to pull recommended gas prices with a configured price tier. It's less than perfect but seems to be a standard in the Ethereum community.
 - Test rig should run on public infrastructure, alongside a dedicated ethereum node (geth or parity) to reduce lag as
 much as possible.
 - Block timestamps are unreliable and shouldn't be used for response time measurements. Instead, the testing rig includes
@@ -95,3 +96,7 @@ output:
 ./account_cleanup.py <accounts_csv>
 ```
 - move all test account funds back to funder account
+
+## Resulting Data
+
+[this is Christian testing his editing powers.]
